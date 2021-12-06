@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Readex+Pro:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+.foto{
+	height: 13vh;
+	background-size: cover;
+	text-align: center;
+}
+.banner{
+	background-image: url('../media/banner.jpg');
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+}
+.header{
+	background-color: #182b3c;
+    text-align: center;
+}
+.nav li{
+	display: inline-block;
+	font-family: 'Cabin', sans-serif;
+	padding: 20px 0 20px 0;
+    margin:  0 60px 0 60px;
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+}
+.titulo{
+	font-family: 'Readex Pro', sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+.categoria{
+	font-family: 'Cabin', sans-serif;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	box-sizing: border-box;
+	min-height: 60vh;
+}
+.contenedor{
+	padding: 40px;
+	background: #182b3c;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+.contenedor h2{
+	color: white;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-weight: 500;
+	border-bottom: 2px solid #fff;
+}
+.contenedor ul{
+	position: relative;
+}
+.contenedor ul li{
+	position: relative;
+	list-style: none;
+	display: table;
+	margin: 10px 0;
+	padding-left: 34px;
+	padding-right: 5px;
+}
+.contenedor ul li::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 34px;
+	height: 34px;
+	background: transparent;
+	border-radius: 34px;
+	transition: background 0.5s, width 0.5s;
+	transition-delay: 0.5s, 0s;
+	border: 2px solid #03a9f4;
+	box-sizing: border-box;
+}
+.contenedor ul li:hover::before{
+	width: 100%;
+	background: #03a9f4;
+	transition-delay: 0s, 0.5s;
+}
+.contenedor ul li::after{
+	content: '';
+	position: absolute;
+	top: 13px;
+	left: 12px;
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(45deg);
+	transition: 0,5s;
+	transition-delay: 0s;
+
+}
+.contenedor ul li:hover::after{
+	left: 24px;
+	transition-delay: 0.5s;
+	transform: rotate(45deg) scale(1.5);
+}
+.contenedor ul li p{
+	position: relative;
+	z-index: 10;
+	padding: 5px 10px;
+	color: #fff;
+}
+
+.contenedorimg{
+	margin: auto;
+	background: #182b3c;
+	overflow: auto;
+}
+.galeria{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 400px;
+}
+.galeria img{
+	width: 100%;
+	height: auto;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+}
+@media all and (max-width: 768px) and (max-width: 980px){
+	body{
+
+	}
+
+}
