@@ -1,0 +1,169 @@
+.logo{
+	width: 145px;
+}
+.redes{
+	width: 25px;
+	margin: 7px 5px;
+}
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+  	width: 300px;
+
+}
+
+.colum2{
+    max-width: 400px;
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 60px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.row a{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #C7C7C7;
+    text-indent: -2.3rem;
+    text-decoration-line: none;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+.fondo{
+	background: url(../media/fondo.png)no-repeat;
+	max-width: 100%;
+    height: auto;
+}
+.logos{
+    width: 500px;
+
+}
+.pc_start_amd{
+    display: inline-block;
+    cursor: pointer;
+    max-width: 400px;
+    margin: 160px;
+}
+.pc_start_intel{
+    display: inline-block;
+    cursor: pointer;
+    max-width: 400px;
+    margin: 160px;
+}
+.pc_start_amd:hover{
+    transform: scale(1.1);
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 50px #666;
+}
+.pc_start_intel:hover{
+    transform: scale(1.1);
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 50px #666;
+}
+.titulo{
+    text-align: center;
+}
+
+.border-end{
+    border-right: 1px solid #dee2e6 !important;
+}
+.titulo-producto{
+    text-align: center;
+}
+
+.link{
+    cursor: pointer;
+    margin: 20px;
+    padding: 50px;
+}
+
+@media screen and (max-width: 1100px){
+
+.container-body{
+    flex-wrap: wrap;
+}
+
+.colum1{
+    max-width: 100%;
+}
+.colum2, .colum3{
+    margin-top: 40px;
+}
